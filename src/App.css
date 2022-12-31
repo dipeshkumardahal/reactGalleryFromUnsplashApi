@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.App img{
+  margin: 1px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.images{
+  margin: 5px;
+}
+
