@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .App img{
   margin: 1px;
@@ -14,4 +14,10 @@
 .images{
   margin: 5px;
 }
-
+input{
+  width: 50%;
+  height: 40px;
+  margin-top: 50px;
+  border-color: antiquewhite;
+  border-radius: 4px;
+}
