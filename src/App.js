@@ -31,13 +31,13 @@ function App() {
       <input type="text" placeholder="Search Your Image" onChange={(e)=>{searchImage(e.target.value)}} />
       </center>
     <div className="App">
-      {imageList.map((data)=>{
+      {imageList.length>0?imageList.map((data)=>{
         return <div key={data.id} className="images">
           <img src={data.urls.regular} alt={data.alt_description} />
           <br/>
           <i>{data.alt_description?data.alt_description.substring(0, 30):"No Caption"}</i>
           </div>
-      })}
+      }):"No Pics"}
     </div>
     </div>
   );
